@@ -5,9 +5,6 @@ div.DTS tbody th,
 div.DTS tbody td {
   white-space: nowrap;
 }
-div.DTS tbody tr.even {
-  background-color: white;
-}
 div.DTS div.DTS_Loading {
   z-index: 1;
 }
