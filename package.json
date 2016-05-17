@@ -5,6 +5,7 @@
     "files": [
         "css/scroller.jqueryui.css"
     ],
+    "style": "css/scroller.jqueryui.css",
     "keywords": [
         "virtual scrolling",
         "DataTables",
