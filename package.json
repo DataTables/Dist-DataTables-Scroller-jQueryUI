@@ -3,7 +3,7 @@
     "version": "1.4.2",
     "description": "Scroller for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
-        "css/scroller.jqueryui.css"
+        "css/**/*.css"
     ],
     "style": "css/scroller.jqueryui.css",
     "keywords": [
