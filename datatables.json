@@ -3,7 +3,10 @@
         "css/scroller.jqueryui.css",
         "css/scroller.jqueryui.min.css"
     ],
-    "js": [],
+    "js": [
+        "js/scroller.jqueryui.js",
+        "js/scroller.jqueryui.min.js"
+    ],
     "src-repo": "http://github.com/DataTables/Scroller",
     "last-sync": "1b0fe553df598783926f843da04b00f12f4abf8f",
     "last-tag": "1.4.4"
