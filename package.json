@@ -4,16 +4,16 @@
     "main": "js/scroller.jqueryui.js",
     "style": "css/scroller.jqueryui.css",
     "types": "./types/scroller.jQueryUI.d.ts",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "Scroller",
- "Virtual Scrolling",
+        "Virtual Scrolling",
         "jQuery UI",
- "jQueryUI",
+        "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
@@ -21,9 +21,9 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-scroller": ">=2.0.3",
-        "datatables.net-jqui": ">=1.10.24",
-        "jquery": ">=1.7"
+        "jquery": ">=1.7",
+        "datatables.net-jqui": "^1.10.15",
+        "datatables.net-scroller": "2.0.4"
     },
     "moduleType": [
         "globals",
