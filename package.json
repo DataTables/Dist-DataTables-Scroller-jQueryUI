@@ -11,9 +11,9 @@
     ],
     "keywords": [
         "Scroller",
-        "Virtual Scrolling",
+ "Virtual Scrolling",
         "jQuery UI",
-        "jQueryUI",
+ "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
@@ -21,9 +21,9 @@
         "sort"
     ],
     "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-jqui": "^1.10.15",
-        "datatables.net-scroller": "2.0.4"
+        "datatables.net-scroller": ">=2.0.4",
+        "datatables.net-jqui": ">=1.10.26-dev",
+        "jquery": ">=1.7"
     },
     "moduleType": [
         "globals",
