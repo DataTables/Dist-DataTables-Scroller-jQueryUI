@@ -4,7 +4,7 @@
     "main": "js/scroller.jqueryui.js",
     "style": "css/scroller.jqueryui.css",
     "types": "./types/scroller.jQueryUI.d.ts",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -22,8 +22,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-scroller": ">=2.0.4",
-        "datatables.net-jqui": ">=1.10.25",
+        "datatables.net-scroller": ">=2.0.5",
+        "datatables.net-jqui": ">=1.11.3",
         "jquery": ">=1.7"
     },
     "moduleType": [
