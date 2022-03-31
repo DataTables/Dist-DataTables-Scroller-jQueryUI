@@ -12,9 +12,9 @@
     ],
     "keywords": [
         "Scroller",
-        "Virtual Scrolling",
+ "Virtual Scrolling",
         "jQuery UI",
-        "jQueryUI",
+ "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
@@ -23,7 +23,7 @@
     ],
     "dependencies": {
         "datatables.net-scroller": ">=2.0.5",
-        "datatables.net-jqui": ">=1.11.3",
+        "datatables.net-jqui": ">=1.11.5",
         "jquery": ">=1.7"
     },
     "moduleType": [
