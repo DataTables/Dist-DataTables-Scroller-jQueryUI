@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-scroller-jqui",
     "description": "Scroller for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
-    "main": "js/scroller.jqueryui.js",
-    "module": "js/scroller.jqueryui.mjs",
-    "style": "css/scroller.jqueryui.css",
+    "main": "./js/scroller.jqueryui.js",
+    "module": "./js/scroller.jqueryui.mjs",
+    "style": "./css/scroller.jqueryui.css",
     "types": "./types/scroller.jqueryui.d.ts",
     "version": "3.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Scroller",
@@ -36,5 +35,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/Scroller.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/scroller.jqueryui.d.ts",
+            "import": "./js/scroller.jqueryui.mjs",
+            "default": "./js/scroller.jqueryui.mjs",
+            "require": "./js/scroller.jqueryui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/scroller.jqueryui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
