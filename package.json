@@ -39,9 +39,10 @@
     "exports": {
         ".": {
             "types": "./types/scroller.jqueryui.d.ts",
+            "style": "./css/scroller.jqueryui.css",
             "import": "./js/scroller.jqueryui.mjs",
-            "default": "./js/scroller.jqueryui.mjs",
-            "require": "./js/scroller.jqueryui.js"
+            "require": "./js/scroller.jqueryui.js",
+            "default": "./js/scroller.jqueryui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
